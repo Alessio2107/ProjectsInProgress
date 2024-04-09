@@ -1,0 +1,23 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container .row .col {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  background-color: #B2FFAE;
+  margin-right: 20px;
+}
+
+.container .row .col:last-child {
+  margin-right: 0;
+}
+
+.container .row .col p {
+  margin: 0;
+}
+

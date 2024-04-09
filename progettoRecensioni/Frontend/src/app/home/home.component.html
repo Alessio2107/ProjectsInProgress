@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row" *ngFor="let att  of attivita">
+    <div class="col col-md-10" (click)="vediDettaglio(att)">
+      <p>{{att.nome}}</p>
+      <p>{{att.tel}}</p>
+      <p>{{att.indirizzo}}</p>
+      <p>{{att.linkamaps}}</p>
+
+    </div>
+  </div>
+</div>
+
